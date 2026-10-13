@@ -1,4 +1,4 @@
-LEGIONFORGE rev.1 2026-10-13 20:39:29 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon)
+LEGIONFORGE rev.1 2026-10-13 22:11:49 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon)
 <Ctrl-C> to stop.
 
  __                                         ____
@@ -35,7 +35,7 @@ VMap data directory is: ./data/vmaps
 Initialize PlayerDump...
 >> Initialized 378 PlayerDump ColumnDefinitions in 52 ms.
 Loading LegionForge strings...
->> Loaded 1066 trinity strings in 80 ms
+>> Loaded 1066 trinity strings in 69 ms
 Initialize data stores...
 >> Loading 240 DB2 stores from ./data/dbc/enUS/
 >> DB2 [1/240] loading Achievement.db2
@@ -58,7 +58,7 @@ Initialize data stores...
 >> DB2 [18/240] loading AuctionHouse.db2
 >> DB2 [19/240] loading BankBagSlotPrices.db2
 >> DB2 [20/240] loading BannedAddons.db2
->> DB2 [20/240] BannedAddons.db2 done in 123 ms (total 2031 ms)
+>> DB2 [20/240] BannedAddons.db2 done in 40 ms (total 1821 ms)
 >> DB2 [21/240] loading BarberShopStyle.db2
 >> DB2 [22/240] loading BattlePetAbility.db2
 >> DB2 [23/240] loading BattlePetAbilityEffect.db2
@@ -71,7 +71,7 @@ Initialize data stores...
 >> DB2 [30/240] loading BattlePetSpeciesXAbility.db2
 >> DB2 [31/240] loading BattlemasterList.db2
 >> DB2 [32/240] loading BroadcastText.db2
->> DB2 [32/240] BroadcastText.db2 done in 79239 ms (total 82654 ms)
+>> DB2 [32/240] BroadcastText.db2 done in 84238 ms (total 87185 ms)
 >> DB2 [33/240] loading CharacterFacialHairStyles.db2
 >> DB2 [34/240] loading CharBaseSection.db2
 >> DB2 [35/240] loading CharSections.db2
@@ -80,7 +80,7 @@ Initialize data stores...
 >> DB2 [38/240] loading ChatChannels.db2
 >> DB2 [39/240] loading ChrClasses.db2
 >> DB2 [40/240] loading ChrClassesXPowerTypes.db2
->> DB2 [40/240] ChrClassesXPowerTypes.db2 done in 22 ms (total 83247 ms)
+>> DB2 [40/240] ChrClassesXPowerTypes.db2 done in 22 ms (total 87747 ms)
 >> DB2 [41/240] loading ChrRaces.db2
 >> DB2 [42/240] loading ChrSpecialization.db2
 >> DB2 [43/240] loading CinematicCamera.db2
@@ -101,7 +101,7 @@ Initialize data stores...
 >> DB2 [58/240] loading DungeonEncounter.db2
 >> DB2 [59/240] loading DurabilityCosts.db2
 >> DB2 [60/240] loading DurabilityQuality.db2
->> DB2 [60/240] DurabilityQuality.db2 done in 5 ms (total 85962 ms)
+>> DB2 [60/240] DurabilityQuality.db2 done in 4 ms (total 90469 ms)
 >> DB2 [61/240] loading Emotes.db2
 >> DB2 [62/240] loading EmotesText.db2
 >> DB2 [63/240] loading EmotesTextSound.db2
@@ -122,7 +122,7 @@ Initialize data stores...
 >> DB2 [78/240] loading GarrSiteLevel.db2
 >> DB2 [79/240] loading GarrSiteLevelPlotInst.db2
 >> DB2 [80/240] loading GemProperties.db2
->> DB2 [80/240] GemProperties.db2 done in 85 ms (total 88018 ms)
+>> DB2 [80/240] GemProperties.db2 done in 95 ms (total 92302 ms)
 >> DB2 [81/240] loading GlyphBindableSpell.db2
 >> DB2 [82/240] loading GlyphProperties.db2
 >> DB2 [83/240] loading GlyphRequiredSpec.db2
@@ -143,7 +143,7 @@ Initialize data stores...
 >> DB2 [98/240] loading ItemBagFamily.db2
 >> DB2 [99/240] loading ItemBonus.db2
 >> DB2 [100/240] loading ItemBonusListLevelDelta.db2
->> DB2 [100/240] ItemBonusListLevelDelta.db2 done in 91 ms (total 89187 ms)
+>> DB2 [100/240] ItemBonusListLevelDelta.db2 done in 73 ms (total 93487 ms)
 >> DB2 [101/240] loading ItemBonusTreeNode.db2
 >> DB2 [102/240] loading ItemChildEquipment.db2
 >> DB2 [103/240] loading ItemClass.db2
@@ -164,14 +164,14 @@ Initialize data stores...
 >> DB2 [118/240] loading ItemLimitCategoryCondition.db2
 >> DB2 [119/240] loading ItemModifiedAppearance.db2
 >> DB2 [120/240] loading ItemPriceBase.db2
->> DB2 [120/240] ItemPriceBase.db2 done in 134 ms (total 91535 ms)
+>> DB2 [120/240] ItemPriceBase.db2 done in 126 ms (total 95694 ms)
 >> DB2 [121/240] loading ItemRandomProperties.db2
 >> DB2 [122/240] loading ItemRandomSuffix.db2
 >> DB2 [123/240] loading ItemSearchName.db2
 >> DB2 [124/240] loading ItemSet.db2
 >> DB2 [125/240] loading ItemSetSpell.db2
 >> DB2 [126/240] loading ItemSparse.db2
->> DB2 [126/240] ItemSparse.db2 done in 4684 ms (total 97525 ms)
+>> DB2 [126/240] ItemSparse.db2 done in 4814 ms (total 101830 ms)
 >> DB2 [127/240] loading ItemSpec.db2
 >> DB2 [128/240] loading ItemSpecOverride.db2
 >> DB2 [129/240] loading ItemUpgrade.db2
@@ -186,7 +186,7 @@ Initialize data stores...
 >> DB2 [138/240] loading MapDifficulty.db2
 >> DB2 [139/240] loading ModifierTree.db2
 >> DB2 [140/240] loading MountCapability.db2
->> DB2 [140/240] MountCapability.db2 done in 69 ms (total 99281 ms)
+>> DB2 [140/240] MountCapability.db2 done in 45 ms (total 103476 ms)
 >> DB2 [141/240] loading Mount.db2
 >> DB2 [142/240] loading MountTypeXCapability.db2
 >> DB2 [143/240] loading MountXDisplay.db2
@@ -207,7 +207,7 @@ Initialize data stores...
 >> DB2 [158/240] loading PvpReward.db2
 >> DB2 [159/240] loading PvpTalent.db2
 >> DB2 [160/240] loading PvpTalentUnlock.db2
->> DB2 [160/240] PvpTalentUnlock.db2 done in 4 ms (total 101060 ms)
+>> DB2 [160/240] PvpTalentUnlock.db2 done in 8 ms (total 105094 ms)
 >> DB2 [161/240] loading QuestFactionReward.db2
 >> DB2 [162/240] loading QuestMoneyReward.db2
 >> DB2 [163/240] loading QuestPackageItem.db2
@@ -228,14 +228,14 @@ Initialize data stores...
 >> DB2 [178/240] loading SceneScriptGlobalText.db2
 >> DB2 [179/240] loading SceneScriptPackage.db2
 >> DB2 [180/240] loading SceneScriptText.db2
->> DB2 [180/240] SceneScriptText.db2 done in 962 ms (total 103578 ms)
+>> DB2 [180/240] SceneScriptText.db2 done in 953 ms (total 107654 ms)
 >> DB2 [181/240] loading SkillLine.db2
 >> DB2 [182/240] loading SkillLineAbility.db2
 >> DB2 [183/240] loading SkillRaceClassInfo.db2
 >> DB2 [184/240] loading SoundKit.db2
 >> DB2 [185/240] loading SpecializationSpells.db2
 >> DB2 [186/240] loading Spell.db2
->> DB2 [186/240] Spell.db2 done in 1529 ms (total 106250 ms)
+>> DB2 [186/240] Spell.db2 done in 1566 ms (total 110255 ms)
 >> DB2 [187/240] loading SpellAuraOptions.db2
 >> DB2 [188/240] loading SpellAuraRestrictions.db2
 >> DB2 [189/240] loading SpellCastTimes.db2
@@ -246,12 +246,12 @@ Initialize data stores...
 >> DB2 [194/240] loading SpellCooldowns.db2
 >> DB2 [195/240] loading SpellDuration.db2
 >> DB2 [196/240] loading SpellEffect.db2
->> DB2 [196/240] SpellEffect.db2 done in 2504 ms (total 109980 ms)
+>> DB2 [196/240] SpellEffect.db2 done in 3226 ms (total 114894 ms)
 >> DB2 [197/240] loading SpellEquippedItems.db2
 >> DB2 [198/240] loading SpellFocusObject.db2
 >> DB2 [199/240] loading SpellInterrupts.db2
 >> DB2 [200/240] loading SpellItemEnchantment.db2
->> DB2 [200/240] SpellItemEnchantment.db2 done in 156 ms (total 110530 ms)
+>> DB2 [200/240] SpellItemEnchantment.db2 done in 222 ms (total 115671 ms)
 >> DB2 [201/240] loading SpellItemEnchantmentCondition.db2
 >> DB2 [202/240] loading SpellLearnSpell.db2
 >> DB2 [203/240] loading SpellLevels.db2
@@ -272,7 +272,7 @@ Initialize data stores...
 >> DB2 [218/240] loading SummonProperties.db2
 >> DB2 [219/240] loading TactKey.db2
 >> DB2 [220/240] loading Talent.db2
->> DB2 [220/240] Talent.db2 done in 98 ms (total 113410 ms)
+>> DB2 [220/240] Talent.db2 done in 108 ms (total 118652 ms)
 >> DB2 [221/240] loading TaxiNodes.db2
 >> DB2 [222/240] loading TaxiPath.db2
 >> DB2 [223/240] loading TaxiPathNode.db2
@@ -293,21 +293,21 @@ Initialize data stores...
 >> DB2 [238/240] loading WorldMapOverlay.db2
 >> DB2 [239/240] loading WorldMapTransforms.db2
 >> DB2 [240/240] loading WorldSafeLocs.db2
->> DB2 [240/240] WorldSafeLocs.db2 done in 177 ms (total 117017 ms)
->> Initialized 240 DB2 data stores in 117175 ms
->> Loaded 187 hotfix records in 20 ms
+>> DB2 [240/240] WorldSafeLocs.db2 done in 141 ms (total 122125 ms)
+>> Initialized 240 DB2 data stores in 122294 ms
+>> Loaded 187 hotfix records in 14 ms
 >> Loading Cinematic Camera files
->> Loaded 34 cinematic waypoint sets in 137 ms
->> Initialized 27 GameTables in 511 ms
+>> Loaded 34 cinematic waypoint sets in 94 ms
+>> Initialized 27 GameTables in 460 ms
 Loading playerbot accounts...
->> Loaded 50 Player bot account base info in 46 ms
+>> Loaded 50 Player bot account base info in 13 ms
 Loading SpellInfo store...
 SpellEffect record 16: invalid SpellID 305010 - effect skipped.
->> Validated 50000 SpellEffect records (46 ms elapsed)
->> Validated 100000 SpellEffect records (90 ms elapsed)
->> Validated 150000 SpellEffect records (129 ms elapsed)
->> Validated 200000 SpellEffect records (182 ms elapsed)
->> Validated 250000 SpellEffect records (220 ms elapsed)
+>> Validated 50000 SpellEffect records (44 ms elapsed)
+>> Validated 100000 SpellEffect records (100 ms elapsed)
+>> Validated 150000 SpellEffect records (144 ms elapsed)
+>> Validated 200000 SpellEffect records (212 ms elapsed)
+>> Validated 250000 SpellEffect records (256 ms elapsed)
 SpellEffect record 400100: invalid SpellID 304000 - effect skipped.
 SpellEffect record 400101: invalid SpellID 304001 - effect skipped.
 SpellEffect record 400102: invalid SpellID 304002 - effect skipped.
@@ -327,186 +327,186 @@ SpellEffect record 410003: invalid SpellID 305003 - effect skipped.
 SpellEffect record 410004: invalid SpellID 305004 - effect skipped.
 SpellEffect record 410005: invalid SpellID 305005 - effect skipped.
 SpellEffect record 410006: invalid SpellID 305006 - effect skipped.
->> Validated 300000 SpellEffect records (261 ms elapsed)
+>> Validated 300000 SpellEffect records (320 ms elapsed)
 Skipped 1609 incompatible SpellEffect records (first 20 logged). Check SpellEffect.db2 against the 26124 client and rebuild the core if effect IDs exceed its handler table.
->> SpellInfo: 20000/283817 entries processed (611 ms elapsed)
->> SpellInfo: 40000/283817 entries processed (691 ms elapsed)
->> SpellInfo: 60000/283817 entries processed (803 ms elapsed)
->> SpellInfo: 80000/283817 entries processed (913 ms elapsed)
->> SpellInfo: 100000/283817 entries processed (1010 ms elapsed)
->> SpellInfo: 120000/283817 entries processed (1091 ms elapsed)
->> SpellInfo: 140000/283817 entries processed (1205 ms elapsed)
->> SpellInfo: 160000/283817 entries processed (1330 ms elapsed)
->> SpellInfo: 180000/283817 entries processed (1464 ms elapsed)
->> SpellInfo: 200000/283817 entries processed (1596 ms elapsed)
->> SpellInfo: 220000/283817 entries processed (1740 ms elapsed)
->> SpellInfo: 240000/283817 entries processed (1879 ms elapsed)
->> SpellInfo: 260000/283817 entries processed (2012 ms elapsed)
->> SpellInfo: 280000/283817 entries processed (2139 ms elapsed)
->> Loaded SpellInfo store in 2153 ms
+>> SpellInfo: 20000/283817 entries processed (746 ms elapsed)
+>> SpellInfo: 40000/283817 entries processed (837 ms elapsed)
+>> SpellInfo: 60000/283817 entries processed (970 ms elapsed)
+>> SpellInfo: 80000/283817 entries processed (1103 ms elapsed)
+>> SpellInfo: 100000/283817 entries processed (1227 ms elapsed)
+>> SpellInfo: 120000/283817 entries processed (1326 ms elapsed)
+>> SpellInfo: 140000/283817 entries processed (1464 ms elapsed)
+>> SpellInfo: 160000/283817 entries processed (1613 ms elapsed)
+>> SpellInfo: 180000/283817 entries processed (1777 ms elapsed)
+>> SpellInfo: 200000/283817 entries processed (1945 ms elapsed)
+>> SpellInfo: 220000/283817 entries processed (2103 ms elapsed)
+>> SpellInfo: 240000/283817 entries processed (2263 ms elapsed)
+>> SpellInfo: 260000/283817 entries processed (2411 ms elapsed)
+>> SpellInfo: 280000/283817 entries processed (2558 ms elapsed)
+>> Loaded SpellInfo store in 2573 ms
 Loading SpellInfo corrections...
->> Loaded SpellInfo corrections in 149 ms
+>> Loaded SpellInfo corrections in 409 ms
 Loading SkillLineAbilityMultiMap Data...
->> Loaded 9360 SkillLineAbility MultiMap Data in 1 ms
+>> Loaded 9360 SkillLineAbility MultiMap Data in 2 ms
 Loading SpellInfo custom attributes...
->> Loaded 96 spell custom attributes from DB in 26 ms
->> Loaded SpellInfo custom attributes in 249 ms
+>> Loaded 96 spell custom attributes from DB in 84 ms
+>> Loaded SpellInfo custom attributes in 329 ms
 Loading SpellInfo diminishing infos...
->> Loaded SpellInfo diminishing infos in 65 ms
+>> Loaded SpellInfo diminishing infos in 80 ms
 Loading SpellInfo immunity infos...
->> Loaded SpellInfo immunity infos in 91 ms
+>> Loaded SpellInfo immunity infos in 141 ms
 Loading PetFamilySpellsStore Data...
 Loading GameObject models...
->> Loaded 9671 GameObject models in 110 ms
+>> Loaded 9671 GameObject models in 178 ms
 Loading Script Names...
->> Loaded 5225 ScriptNames in 8509 ms
+>> Loaded 5217 ScriptNames in 21655 ms
 Loading Instance Template...
->> Loaded 161 instance templates in 2 ms
+>> Loaded 161 instance templates in 5 ms
 Loading instances...
->> Loaded instances in 7241 ms
+>> Loaded instances in 8484 ms
 Loading Localization strings...
->> Loaded 106648 creature locale strings in 12752 ms
->> Loaded 20376 gameobject_template_locale strings in 1882 ms
->> Loaded 25125 Quest Template locale strings in 4846 ms
->> Loaded 226 Quest Offer Reward locale strings in 26 ms
->> Loaded 63 Quest Request Items locale strings in 22 ms
->> Loaded 20229 Quest Objectives locale strings in 1403 ms
->> Loaded 1 PageText locale strings in 30 ms
->> Loaded 17 gossip_menu_option locale strings in 18 ms
->> Localization strings loaded in 20997 ms
+>> Loaded 106648 creature locale strings in 13278 ms
+>> Loaded 20376 gameobject_template_locale strings in 1995 ms
+>> Loaded 25125 Quest Template locale strings in 5244 ms
+>> Loaded 226 Quest Offer Reward locale strings in 8 ms
+>> Loaded 63 Quest Request Items locale strings in 2 ms
+>> Loaded 20229 Quest Objectives locale strings in 1576 ms
+>> Loaded 1 PageText locale strings in 31 ms
+>> Loaded 17 gossip_menu_option locale strings in 16 ms
+>> Localization strings loaded in 22213 ms
 Loading Account Roles and Permissions...
->> Loaded 690 permission definitions, 672 linked permissions and 4 default permissions in 46 ms
+>> Loaded 690 permission definitions, 672 linked permissions and 4 default permissions in 27 ms
 Loading Page Texts...
->> Loaded 2317 page texts in 204 ms
+>> Loaded 2317 page texts in 171 ms
 Loading Game Object Templates...
->> Loaded 47465 game object templates in 819 ms
+>> Loaded 47465 game object templates in 868 ms
 Loading Game Object template addons...
->> Loaded 44811 game object template addons in 364 ms
+>> Loaded 44811 game object template addons in 391 ms
 Loading Transport templates...
->> Loaded 69 transport templates in 239 ms
+>> Loaded 69 transport templates in 299 ms
 Loading Transport animations and rotations...
 Loading Spell Rank Data...
 >> Loaded 865 spell rank records in 1 ms
 Loading Spell Required Data...
->> Loaded 21 spell required records in 18 ms
+>> Loaded 21 spell required records in 11 ms
 Loading Spell Group types...
->> Loaded 272 spell group definitions in 18 ms
+>> Loaded 272 spell group definitions in 21 ms
 Loading Spell Learn Skills...
->> Loaded 325 Spell Learn Skills from DBC in 133 ms
+>> Loaded 325 Spell Learn Skills from DBC in 161 ms
 Loading SpellInfo SpellSpecific and AuraState...
->> Loaded SpellInfo SpellSpecific and AuraState in 91 ms
+>> Loaded SpellInfo SpellSpecific and AuraState in 112 ms
 Loading Spell Learn Spells...
->> Loaded 20 spell learn spells, 1075 found in Spell.dbc in 154 ms
+>> Loaded 20 spell learn spells, 1075 found in Spell.dbc in 175 ms
 Loading Spell Proc conditions and data...
->> Loaded 663 spell proc conditions and data in 65 ms
+>> Loaded 663 spell proc conditions and data in 77 ms
 Generating spell proc data from SpellMap...
->> Generated spell proc data for 5140 spells in 30 ms
+>> Generated spell proc data for 5140 spells in 37 ms
 Loading Aggro Spells Definitions...
->> Loaded 20 SpellThreatEntries in 14 ms
+>> Loaded 20 SpellThreatEntries in 18 ms
 Loading Spell Group Stack Rules...
->> Loaded 8 spell group stack rules in 3 ms
+>> Loaded 8 spell group stack rules in 4 ms
 Loading NPC Texts...
->> Loaded 10325 npc texts in 233 ms
+>> Loaded 10325 npc texts in 169 ms
 Loading Enchant Spells Proc datas...
->> Loaded 16 enchant proc data definitions in 18 ms
+>> Loaded 16 enchant proc data definitions in 4 ms
 Loading Item Random Enchantments Table...
->> Loaded 34276 Item Enchantment definitions in 339 ms
+>> Loaded 34276 Item Enchantment definitions in 298 ms
 Loading Disables
->> Loaded 5450 disables in 133 ms
+>> Loaded 5450 disables in 121 ms
 Loading Items...
->> Loaded 104533 item templates in 2546 ms
+>> Loaded 104533 item templates in 2701 ms
 Loading Item set names...
->> Loaded 625 item addon templates in 74 ms
+>> Loaded 625 item addon templates in 49 ms
 >> Loaded 15 item script names in 1 ms
 Loading Creature Model Based Info Data...
->> Loaded 65421 creature model based info in 561 ms
+>> Loaded 65421 creature model based info in 523 ms
 Loading Creature templates...
->> Loaded 110533 creature definitions in 3347 ms
+>> Loaded 110533 creature definitions in 3641 ms
 Loading Equipment templates...
->> Loaded 23678 equipment templates in 322 ms
+>> Loaded 23678 equipment templates in 285 ms
 Loading Creature template addons...
->> Loaded 23885 creature template addons in 299 ms
+>> Loaded 23885 creature template addons in 300 ms
 Loading Creature template scaling...
->> Loaded 14163 creature template scaling data in 212 ms
+>> Loaded 14163 creature template scaling data in 147 ms
 Loading Script Params...
 >> Loaded 0 script param creature definitions. DB table `script_params` is empty.
 Loading Reputation Reward Rates...
 >> Loaded 14 reputation_reward_rate in 14 ms
 Loading Creature Reputation OnKill Data...
->> Loaded 2054 creature award reputation definitions in 195 ms
+>> Loaded 2054 creature award reputation definitions in 68 ms
 Loading Reputation Spillover Data...
->> Loaded 28 reputation_spillover_template in 71 ms
+>> Loaded 28 reputation_spillover_template in 34 ms
 Loading Points Of Interest Data...
->> Loaded 503 Points of Interest definitions in 66 ms
+>> Loaded 503 Points of Interest definitions in 46 ms
 Loading Creature Base Stats...
->> Loaded 460 creature base stats in 73 ms
+>> Loaded 460 creature base stats in 45 ms
 Loading Creature Data...
->> Loaded 378946 creatures in 9339 ms
+>> Loaded 378946 creatures in 10332 ms
 Loading Temporary Summon Data...
->> Loaded 1228 temp summons in 53 ms
+>> Loaded 1228 temp summons in 61 ms
 Loading pet levelup spells...
->> Loaded 627 pet levelup and default spells for 79 families in 11 ms
+>> Loaded 627 pet levelup and default spells for 79 families in 12 ms
 Loading pet default spells additional to levelup spells...
 Loading summonable creature templates...
->> Loaded 1489 summonable creature templates in 141 ms
+>> Loaded 1489 summonable creature templates in 170 ms
 Loading Creature Addon Data...
->> Loaded 40541 creature addons in 611 ms
+>> Loaded 40541 creature addons in 535 ms
 Loading Gameobject Data...
->> Loaded 157848 gameobjects in 3284 ms
+>> Loaded 157848 gameobjects in 3551 ms
 Loading GameObject Addon Data...
->> Loaded 124986 gameobject addons in 1278 ms
+>> Loaded 124986 gameobject addons in 1263 ms
 Loading GameObject Quest Items...
->> Loaded 2042 gameobject quest items in 83 ms
+>> Loaded 2042 gameobject quest items in 72 ms
 Loading Creature Quest Items...
->> Loaded 9631 creature quest items in 172 ms
+>> Loaded 9631 creature quest items in 133 ms
 Loading Creature Linked Respawn...
->> Loaded 196 linked respawns in 18 ms
+>> Loaded 196 linked respawns in 48 ms
 Loading Weather Data...
->> Loaded 35 weather definitions in 0 ms
+>> Loaded 35 weather definitions in 1 ms
 Loading Quests...
->> Loaded 29007 quests definitions in 3590 ms
+>> Loaded 29007 quests definitions in 3828 ms
 Checking Quest Disables
 >> Checked 5394 quest disables in 1 ms
 Loading Quest POI
->> Loaded 56288 quest POI definitions in 1891 ms
+>> Loaded 56288 quest POI definitions in 1810 ms
 Loading Quests Starters and Enders...
 Loading GO Start Quest Data...
->> Loaded 1108 quest relations from gameobject_queststarter in 31 ms
+>> Loaded 1108 quest relations from gameobject_queststarter in 5 ms
 Loading GO End Quest Data...
->> Loaded 1228 quest relations from gameobject_questender in 50 ms
+>> Loaded 1228 quest relations from gameobject_questender in 7 ms
 Loading Creature Start Quest Data...
->> Loaded 16317 quest relations from creature_queststarter in 38 ms
+>> Loaded 16317 quest relations from creature_queststarter in 40 ms
 Loading Creature End Quest Data...
->> Loaded 22991 quest relations from creature_questender in 134 ms
+>> Loaded 22991 quest relations from creature_questender in 63 ms
 Loading Quest Greetings...
->> Loaded 2 quest_greeting in 37 ms
+>> Loaded 2 quest_greeting in 25 ms
 Loading Objects Pooling Data...
->> Loaded 126 objects pools in 15 ms
+>> Loaded 126 objects pools in 16 ms
 Loading Creatures Pooling Data...
 >> Loaded 37 creatures in pools in 1 ms
 Loading Gameobject Pooling Data...
->> Loaded 258 gameobject in pools in 3 ms
+>> Loaded 258 gameobject in pools in 13 ms
 Loading Mother Pooling Data...
 >> Loaded 0 pools in pools
 Loading Quest Pooling Data...
->> Loaded 10 quests in pools in 1 ms
+>> Loaded 10 quests in pools in 0 ms
 Starting objects pooling system...
 Loading Game Event Data...
->> Loaded 70 game events in 16 ms.
+>> Loaded 70 game events in 12 ms.
 Loading Game Event Saves Data...
 >> Loaded 0 game event saves in game events. DB table `game_event_save` is empty.
 Loading Game Event Prerequisite Data...
 >> Loaded 0 game event prerequisites in game events. DB table `game_event_prerequisite` is empty.
 Loading Game Event Creature Data...
->> Loaded 12796 creatures in game events in 21 ms.
+>> Loaded 12796 creatures in game events in 22 ms.
 Loading Game Event GO Data...
->> Loaded 26532 gameobjects in game events in 33 ms.
+>> Loaded 26532 gameobjects in game events in 35 ms.
 Loading Game Event Model/Equipment Change Data...
 >> Loaded 0 model/equipment changes in game events. DB table `game_event_model_equip` is empty.
 Loading Game Event Quest Data...
->> Loaded 327 quests additions in game events in 28 ms.
+>> Loaded 327 quests additions in game events in 17 ms.
 Loading Game Event GO Quest Data...
->> Loaded 189 quests additions in game events in 11 ms.
+>> Loaded 189 quests additions in game events in 3 ms.
 Loading Game Event Quest Condition Data...
 >> Loaded 0 quest event conditions in game events. DB table `game_event_quest_condition` is empty.
 Loading Game Event Condition Data...
@@ -516,125 +516,125 @@ Loading Game Event Condition Save Data...
 Loading Game Event NPCflag Data...
 >> Loaded 0 npcflags in game events. DB table `game_event_npcflag` is empty.
 Loading Game Event Seasonal Quest Relations...
->> Loaded 690 quests additions in game events in 58 ms.
+>> Loaded 690 quests additions in game events in 3 ms.
 Loading Game Event Vendor Additions Data...
->> Loaded 2 vendor additions in game events in 4 ms.
+>> Loaded 2 vendor additions in game events in 20 ms.
 Loading Game Event Battleground Data...
->> Loaded 6 battleground holidays in game events in 17 ms.
+>> Loaded 6 battleground holidays in game events in 3 ms.
 Loading Game Event Pool Data...
 >> Loaded 0 pools for game events. DB table `game_event_pool` is empty.
 Loading UNIT_NPC_FLAG_SPELLCLICK Data...
->> Loaded 1185 spellclick definitions in 95 ms
+>> Loaded 1185 spellclick definitions in 52 ms
 Loading Vehicle Template Accessories...
->> Loaded 321 Vehicle Template Accessories in 66 ms
+>> Loaded 321 Vehicle Template Accessories in 43 ms
 Loading Vehicle Accessories...
->> Loaded 0 Vehicle Accessories in 19 ms
+>> Loaded 0 Vehicle Accessories in 3 ms
 Loading SpellArea Data...
->> Loaded 887 spell area requirements in 78 ms
+>> Loaded 887 spell area requirements in 56 ms
 Loading AreaTrigger definitions...
->> Loaded 372 area trigger teleport definitions in 79 ms
+>> Loaded 371 area trigger teleport definitions in 6 ms
 Loading Access Requirements...
->> Loaded 287 access requirement definitions in 36 ms
+>> Loaded 287 access requirement definitions in 18 ms
 Loading Quest Area Triggers...
->> Loaded 59 quest trigger points in 14 ms
+>> Loaded 59 quest trigger points in 4 ms
 Loading Tavern Area Triggers...
->> Loaded 183 tavern triggers in 18 ms
+>> Loaded 183 tavern triggers in 3 ms
 Loading AreaTrigger script names...
 >> Loaded 254 areatrigger scripts in 3 ms
 Loading LFG entrance positions...
->> Loaded 451 lfg dungeon templates in 9 ms
+>> Loaded 451 lfg dungeon templates in 8 ms
 >> LFG entrances: 451 from SQL, 171 from portal/graveyard/areatrigger fallback, 79 still missing
 Loading Dungeon boss data...
->> Loaded 394 instance encounters in 61 ms
+>> Loaded 394 instance encounters in 41 ms
 Loading LFG rewards...
->> Loaded 15 lfg dungeon rewards in 14 ms
+>> Loaded 15 lfg dungeon rewards in 3 ms
 Loading Graveyard-zone links...
->> Loaded 1530 graveyard-zone links in 72 ms
+>> Loaded 1530 graveyard-zone links in 74 ms
 Loading spell pet auras...
->> Loaded 1 spell pet auras in 17 ms
+>> Loaded 1 spell pet auras in 2 ms
 Loading Spell target coordinates...
->> Loaded 1935 spell teleport coordinates in 77 ms
+>> Loaded 1935 spell teleport coordinates in 46 ms
 Loading enchant custom attributes...
->> Loaded 3 custom enchant attributes in 9 ms
+>> Loaded 3 custom enchant attributes in 12 ms
 Loading linked spells...
->> Loaded 369 linked spells in 24 ms
+>> Loaded 369 linked spells in 5 ms
 Loading Player Create Data...
->> Loaded 267 player create definitions in 3 ms
+>> Loaded 276 player create definitions in 6 ms
 Loading Player Create Items Data...
->> Loaded 32 custom player create items in 1 ms
+>> Loaded 32 custom player create items in 3 ms
 Loading Player Create Skill Data...
->> Loaded player create skills in 1 ms
+>> Loaded player create skills in 0 ms
 Loading Player Create Custom Spell Data...
 >> Loaded 0 player create custom spells. DB table `playercreateinfo_spell_custom` is empty.
 Loading Player Create Cast Spell Data...
->> Loaded 1003 player create cast spells in 1 ms
+>> Loaded 1058 player create cast spells in 28 ms
 Loading Player Create Action Data...
->> Loaded 886 player create actions in 6 ms
+>> Loaded 920 player create actions in 6 ms
 Loading Player Create Level Stats Data...
->> Loaded 29370 level stats definitions in 189 ms
+>> Loaded 30360 level stats definitions in 200 ms
 Loading Player Create XP Data...
->> Loaded 0 xp for level definition(s) from database in 18 ms
+>> Loaded 0 xp for level definition(s) from database in 3 ms
 Loading Exploration BaseXP Data...
->> Loaded 100 BaseXP definitions in 35 ms
+>> Loaded 100 BaseXP definitions in 18 ms
 Loading Pet Name Parts...
->> Loaded 313 pet name parts in 32 ms
+>> Loaded 313 pet name parts in 34 ms
 Loading AreaTrigger Templates...
 >> Loaded 0 AreaTrigger templates circular movement infos. DB table `spell_areatrigger_circular` is empty.
->> Loaded 922 spell areatrigger templates in 210 ms.
+>> Loaded 922 spell areatrigger templates in 163 ms.
 Loading AreaTriggers...
->> Loaded 23 areatrigger in 27 ms
+>> Loaded 23 areatrigger in 9 ms
 Loading Conversation Templates...
->> Loaded 64 Conversation actor templates in 0 ms
->> Loaded 549 Conversation line templates in 1 ms
->> Loaded 191 Conversation actors in 1 ms
->> Loaded 269 Conversation templates in 1 ms
+>> Loaded 64 Conversation actor templates in 1 ms
+>> Loaded 549 Conversation line templates in 0 ms
+>> Loaded 191 Conversation actors in 0 ms
+>> Loaded 269 Conversation templates in 0 ms
 Loading Scenes Templates...
 >> Loaded 0 scene templates in 2 ms.
 Loading Player Choices...
->> Loaded 1 player choices, 2 responses, 2 rewards, 0 item rewards, 0 currency rewards and 0 faction rewards in 178 ms.
+>> Loaded 1 player choices, 2 responses, 2 rewards, 0 item rewards, 0 currency rewards and 0 faction rewards in 27 ms.
 Loading Player Choices Locales...
->> Loaded 1 Player Choice locale strings in 10 ms
->> Loaded 2 Player Choice Response locale strings in 15 ms
+>> Loaded 1 Player Choice locale strings in 2 ms
+>> Loaded 2 Player Choice Response locale strings in 12 ms
 Loading the max pet number...
->> Loaded the max pet number: 0 in 1 ms
+>> Loaded the max pet number: 12 in 1 ms
 Loading Player level dependent mail rewards...
->> Loaded 14 level dependent mail rewards in 12 ms
+>> Loaded 14 level dependent mail rewards in 4 ms
 Loading creature loot templates...
->> Loaded 914709 creature loot templates in 11845 ms
+>> Loaded 914709 creature loot templates in 12986 ms
 Loading fishing loot templates...
->> Loaded 3757 fishing loot templates in 170 ms
+>> Loaded 3757 fishing loot templates in 121 ms
 Loading gameobject loot templates...
->> Loaded 25886 gameobject loot templates in 464 ms
+>> Loaded 25886 gameobject loot templates in 344 ms
 Loading item loot templates...
->> Loaded 6334 item loot templates in 180 ms
+>> Loaded 6334 item loot templates in 168 ms
 Loading mail loot templates...
->> Loaded 30 mail loot templates in 43 ms
+>> Loaded 30 mail loot templates in 37 ms
 Loading milling loot templates...
->> Loaded 131 milling loot templates in 71 ms
+>> Loaded 131 milling loot templates in 67 ms
 Loading pickpocketing loot templates...
->> Loaded 10951 pickpocketing loot templates in 385 ms
+>> Loaded 10951 pickpocketing loot templates in 333 ms
 Loading skinning loot templates...
->> Loaded 11413 skinning loot templates in 389 ms
+>> Loaded 11413 skinning loot templates in 301 ms
 Loading disenchanting loot templates...
->> Loaded 226 disenchanting loot templates in 79 ms
+>> Loaded 232 disenchanting loot templates in 3 ms
 Loading prospecting loot templates...
->> Loaded 92 prospecting loot templates in 63 ms
+>> Loaded 92 prospecting loot templates in 62 ms
 Loading spell loot templates...
->> Loaded 2681 spell loot templates in 199 ms
+>> Loaded 2696 spell loot templates in 197 ms
 Loading reference loot templates...
->> Loaded refence loot templates in 284 ms
+>> Loaded refence loot templates in 283 ms
 Loading Skill Discovery Table...
->> Loaded 130 skill discovery definitions in 101 ms.
+>> Loaded 130 skill discovery definitions in 117 ms.
 Loading Skill Extra Item Table...
->> Loaded 219 spell specialization definitions in 4 ms
+>> Loaded 219 spell specialization definitions in 6 ms
 Loading Skill Perfection Data Table...
->> Loaded 47 spell perfection definitions in 28 ms.
+>> Loaded 47 spell perfection definitions in 6 ms.
 Loading Skill Fishing base level requirements...
->> Loaded 93 areas for fishing base skill level in 23 ms
+>> Loaded 93 areas for fishing base skill level in 10 ms
 Loading skill tier info...
->> Loaded 34 skill max values in 17 ms
+>> Loaded 34 skill max values in 22 ms
 Loading Criteria Modifier trees...
->> Loaded 74693 criteria modifiers in 53 ms
+>> Loaded 74693 criteria modifiers in 54 ms
 Loading Criteria Lists...
 Criteria 40707 has unsupported type 213 (supported: 0..212); skipped.
 Criteria 41074 has unsupported type 213 (supported: 0..212); skipped.
@@ -657,27 +657,27 @@ Criteria 41229 has unsupported type 213 (supported: 0..212); skipped.
 Criteria 41230 has unsupported type 213 (supported: 0..212); skipped.
 Criteria 41231 has unsupported type 213 (supported: 0..212); skipped.
 Skipped 25 criteria with unsupported types (first 20 logged). Check Criteria.db2 against client build 26124; these achievements are unavailable.
->> Loaded 19966 criteria, 1252 guild criteria, 2817 scenario criteria and 1792 quest objective criteria in 101 ms.
+>> Loaded 19966 criteria, 1252 guild criteria, 2817 scenario criteria and 1792 quest objective criteria in 100 ms.
 Loading Criteria Data...
 >> Loaded 308 additional criteria data in 3 ms
 Loading Achievements...
->> Loaded 43 achievement references in 1 ms.
+>> Loaded 43 achievement references in 0 ms.
 Loading Achievement Rewards...
->> Loaded 587 achievement rewards in 79 ms.
+>> Loaded 587 achievement rewards in 38 ms.
 Loading Achievement Reward Locales...
 >> Loaded 0 achievement reward locale strings.  DB table `locales_achievement_reward` is empty.
 Loading Completed Achievements...
->> Loaded 0 realm first completed achievements. DB table `character_achievement` is empty.
+>> Loaded 125 realm first completed achievements in 7 ms.
 Loading Item Auctions...
 >> Loaded 0 auction items. DB table `auctionhouse` or `item_instance` is empty!
 Loading Auctions...
 >> Loaded 0 auctions. DB table `auctionhouse` is empty.
 Loading Black Market Templates...
->> Loaded 75 black market templates in 26 ms.
+>> Loaded 75 black market templates in 14 ms.
 Loading Black Market Auctions...
->> Loaded 0 black market auctions. DB table `blackmarket_auctions` is empty.
+>> Loaded 12 black market auctions in 1 ms.
 Loading Guild rewards...
->> Loaded 62 guild reward definitions in 33 ms
+>> Loaded 62 guild reward definitions in 31 ms
 Loading Guilds...
 Loading guilds definitions...
 >> Loaded 0 guild definitions. DB table `guild` is empty.
@@ -692,53 +692,53 @@ Loading Groups...
 Loading ReservedNames...
 >> Loaded 0 reserved player names. DB table `reserved_name` is empty!
 Loading GameObjects for quests...
->> Loaded 4081 GameObjects for quests in 9 ms
+>> Loaded 4084 GameObjects for quests in 12 ms
 Loading BattleMasters...
->> Loaded 189 battlemaster entries in 77 ms
+>> Loaded 189 battlemaster entries in 34 ms
 Loading GameTeleports...
->> Loaded 1606 GameTeleports in 33 ms
+>> Loaded 1606 GameTeleports in 26 ms
 Loading Trainers...
->> Loaded 54 Trainers in 170 ms
+>> Loaded 54 Trainers in 134 ms
 Loading Creature default trainers...
->> Loaded 160 default trainers in 26 ms
+>> Loaded 160 default trainers in 16 ms
 Loading Gossip menu...
->> Loaded 7444 gossip_menu IDs in 69 ms
+>> Loaded 7444 gossip_menu IDs in 18 ms
 Loading Gossip menu options...
->> Loaded 6231 gossip_menu_option entries in 331 ms
+>> Loaded 6231 gossip_menu_option entries in 271 ms
 Loading Vendors...
->> Loaded 81845 Vendors in 1192 ms
+>> Loaded 81845 Vendors in 1248 ms
 Loading Trainers...
->> Loaded 56601 Trainers in 785 ms
+>> Loaded 56601 Trainers in 771 ms
 Loading Waypoints...
->> Loaded 86616 waypoints in 923 ms
+>> Loaded 86616 waypoints in 957 ms
 Loading SmartAI Waypoints...
->> Loaded 536 SmartAI waypoint paths (total 6598 waypoints) in 128 ms
+>> Loaded 536 SmartAI waypoint paths (total 6598 waypoints) in 129 ms
 Loading Creature Formations...
->> Loaded 987 creatures in formations in 59 ms
+>> Loaded 987 creatures in formations in 8 ms
 Loading World States...
->> Loaded 93 world states in 20 ms
+>> Loaded 95 world states in 2 ms
 Loading Terrain World Map definitions...
->> Loaded 7 terrain world maps in 12 ms.
+>> Loaded 7 terrain world maps in 4 ms.
 Loading Terrain Swap Default definitions...
->> Loaded 5 terrain swap defaults in 9 ms.
+>> Loaded 5 terrain swap defaults in 2 ms.
 Loading Phase Area definitions...
->> Loaded 88 phase areas in 1 ms.
+>> Loaded 88 phase areas in 17 ms.
 Loading Conditions...
->> Loaded 8261 conditions in 114 ms
+>> Loaded 8261 conditions in 121 ms
 Loading faction change achievement pairs...
->> Loaded 122 faction change achievement pairs in 14 ms
+>> Loaded 122 faction change achievement pairs in 3 ms
 Loading faction change spell pairs...
->> Loaded 121 faction change spell pairs in 9 ms
+>> Loaded 121 faction change spell pairs in 1 ms
 Loading faction change quest pairs...
->> Loaded 250 faction change quest pairs in 22 ms
+>> Loaded 250 faction change quest pairs in 3 ms
 Loading faction change item pairs...
->> Loaded 3484 faction change item pairs in 33 ms
+>> Loaded 3484 faction change item pairs in 8 ms
 Loading faction change reputation pairs...
 >> Loaded 31 faction change reputation pairs in 2 ms
 Loading faction change title pairs...
->> Loaded 23 faction change title pairs in 15 ms
+>> Loaded 23 faction change title pairs in 1 ms
 Loading mount definitions...
->> Loaded 50 mount definitions in 19 ms
+>> Loaded 50 mount definitions in 2 ms
 Loading GM bugs...
 >> Loaded 0 GM bugs. DB table `gm_bug` is empty!
 Loading GM complaints...
@@ -747,29 +747,29 @@ Loading GM suggestions...
 >> Loaded 0 GM suggestions. DB table `gm_suggestion` is empty!
 Loading garrison info...
 >> Loaded 11 garrison plot finalize entries in 0.
->> Loaded 170 garrison follower class spec abilities in 0.
+>> Loaded 170 garrison follower class spec abilities in 32.
 Returning old mails...
 >> No expired mails found.
 Loading Autobroadcasts...
 >> Loaded 0 autobroadcasts definitions. DB table `autobroadcast` is empty for this realm!
 Loading spell_scripts...
->> Loaded 121 script definitions in 27 ms
+>> Loaded 121 script definitions in 24 ms
 Loading event_scripts...
->> Loaded 410 script definitions in 54 ms
+>> Loaded 410 script definitions in 37 ms
 Loading waypoint_scripts...
->> Loaded 438 script definitions in 43 ms
+>> Loaded 438 script definitions in 39 ms
 Loading spell script names...
->> Loaded 2868 spell script names in 7 ms
+>> Loaded 2865 spell script names in 8 ms
 Loading Creature Texts...
->> Loaded 16083 creature texts for 4521 creatures in 326 ms
+>> Loaded 16083 creature texts for 4521 creatures in 289 ms
 Loading Creature Text Locales...
->> Loaded 11 creature localized texts in 17 ms
+>> Loaded 11 creature localized texts in 2 ms
 Initializing Scripts...
 Loading Script Waypoints for 64 creature(s)...
->> Loaded 1495 Script Waypoint nodes in 96 ms
+>> Loaded 1495 Script Waypoint nodes in 89 ms
 >> Loaded spline chain data for 0 chains, consisting of 0 splines with 0 waypoints. DB tables `script_spline_chain_meta` and `script_spline_chain_waypoints` are empty.
 Loading C++ scripts
->> Loaded 5038 C++ scripts in 1104 ms
+>> Loaded 5038 C++ scripts in 937 ms
 Validating spell scripts...
 _SpellScript::ValidateSpellInfo: Spell 65219 does not exist.
 Spell `100` did not pass Validate() function of script `spell_gen_trigger_exclude_target_aura_spell` - script will be not added to the spell
@@ -1116,10 +1116,10 @@ Spell `228920` Effect `Index: EFFECT_0 AuraName: 47` of script `spell_warr_ravag
 Spell `234746` Effect `Index: EFFECT_0 Name: 2` of script `spell_pri_void_bolt` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
 Spell `237680` Effect `Index: EFFECT_1 Name: 2` of script `spell_dk_howling_blast_aoe` did not match dbc effect data - handler bound to hook `OnEffectHit` of SpellScript won't be executed
 Spell `247454` Effect `Index: EFFECT_0 Name: 3` of script `spell_dh_spirit_bomb` did not match dbc effect data - handler bound to hook `OnEffectHitTarget` of SpellScript won't be executed
->> Validated 2734 scripts in 497 ms
+>> Validated 2734 scripts in 348 ms
 Loading SmartAI scripts...
->> Loaded SmartAIMgr Helpers in 149 ms
->> Loaded 15387 SmartAI scripts in 759 ms
+>> Loaded SmartAIMgr Helpers in 171 ms
+>> Loaded 15388 SmartAI scripts in 957 ms
 Loading Calendar data...
 >> Loaded 0 calendar events
 >> Loaded 0 calendar invites
@@ -1127,7 +1127,7 @@ Loading Quest task...
 Loading Zones script names...
 >> Loaded 9 zone scriptnames in 1 ms
 Initialize game time and timers
-Mail timer set to: 1020, mail return is called every 1440 minutes
+Mail timer set to: 1140, mail return is called every 1440 minutes
 Starting Map System
 Starting Game Event system...
 Initialize AuctionHouseBot...
@@ -1137,12 +1137,12 @@ Opcode SMSG_ITEM_UPGRADE_RESULT does not have a value
 Starting Arena Season...
 ArenaSeason (15) must be an existing Arena Season.
 Starting Battleground System
->> Loaded 17 battlegrounds in 2 ms
+>> Loaded 17 battlegrounds in 47 ms
 Starting Outdoor PvP System
->> Loaded 5 outdoor PvP definitions in 68 ms
+>> Loaded 5 outdoor PvP definitions in 168 ms
 Starting Battlefield System
 Loading Transports...
->> Spawned 26 continent transports in 445 ms
+>> Spawned 26 continent transports in 1395 ms
 Loading Warden Checks...
 Loading Warden Action Overrides...
 Deleting expired bans...
@@ -1155,8 +1155,8 @@ Calculate next currency reset time...
 Loading character info store
 Loaded character infos for 50 characters
 Loading race and class expansion requirements...
->> Loaded 33 race expansion requirements in 3 ms.
->> Loaded 12 class expansion requirements in 23 ms.
+>> Loaded 33 race expansion requirements in 2 ms.
+>> Loaded 12 class expansion requirements in 24 ms.
 Loading character templates...
 >> Loaded 0 character template classes. DB table `character_template_class` is empty.
 >> Loaded 0 character templates. DB table `character_template` is empty.
@@ -1166,16 +1166,15 @@ Loading battle pets info...
 >> Loaded 2884 battle pet breeds.
 >> Loaded 998 battle pet qualities.
 Loading scenarios
->> Loaded 197 instance scenario entries in 23 ms
+>> Loaded 197 instance scenario entries in 31 ms
 Loading scenario poi data
 >> Loaded 0 scenario POI definitions. DB table `scenario_poi` is empty.
 Loading active world quests...
-World Quest: There is no active world quests.
 >> SupplementOneRandomPlayerBotPerAccount START
 >> SupplementOneRandomPlayerBotPerAccount END - created 0 bots
 Logging in playerbots...
-World initialized in 3 minutes 44 seconds
-LEGIONFORGE rev.1 2026-10-13 20:39:29 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon) ready...
+World initialized in 4 minutes 17 seconds
+LEGIONFORGE rev.1 2026-10-13 22:11:49 (Legion 7.3.5.26124, Win64, Release, Static) (worldserver-daemon) ready...
 >> ScenarioDoor: loaded 4 scenario NPC landings
 Could not load VMAP name:Kalimdor, id:1, x:12, y:30 (vmap rep.: x:12, y:30)
 Could not load VMAP name:Eastern Kingdoms, id:0, x:29, y:27 (vmap rep.: x:29, y:27)
@@ -1185,457 +1184,58 @@ Could not load VMAP name:Kalimdor, id:1, x:13, y:30 (vmap rep.: x:13, y:30)
 Could not load VMAP name:Kalimdor, id:1, x:13, y:29 (vmap rep.: x:13, y:29)
 Could not load VMAP name:Kalimdor, id:1, x:12, y:31 (vmap rep.: x:12, y:31)
 Could not load VMAP name:Kalimdor, id:1, x:12, y:29 (vmap rep.: x:12, y:29)
-Could not load VMAP name:Kalimdor, id:1, x:12, y:28 (vmap rep.: x:12, y:28)
 Could not load VMAP name:Kalimdor, id:1, x:11, y:29 (vmap rep.: x:11, y:29)
 Could not load VMAP name:Kalimdor, id:1, x:11, y:30 (vmap rep.: x:11, y:30)
 Could not load VMAP name:Kalimdor, id:1, x:11, y:31 (vmap rep.: x:11, y:31)
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater
-Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysolde' (GUID Full: 0x08000400000000000000000000000032 Type: Player Entry: 0 Low: 50), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quinlan' (GUID Full: 0x0800040000000000000000000000002F Type: Player Entry: 0 Low: 47), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Kaelis' (GUID Full: 0x0800040000000000000000000000002B Type: Player Entry: 0 Low: 43), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lyriana' (GUID Full: 0x08000400000000000000000000000029 Type: Player Entry: 0 Low: 41), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zevaris' (GUID Full: 0x08000400000000000000000000000028 Type: Player Entry: 0 Low: 40), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Osric' (GUID Full: 0x08000400000000000000000000000020 Type: Player Entry: 0 Low: 32), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Fenric' (GUID Full: 0x0800040000000000000000000000001D Type: Player Entry: 0 Low: 29), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Morvane' (GUID Full: 0x0800040000000000000000000000001B Type: Player Entry: 0 Low: 27), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Nythera' (GUID Full: 0x08000400000000000000000000000019 Type: Player Entry: 0 Low: 25), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Tamsin' (GUID Full: 0x08000400000000000000000000000015 Type: Player Entry: 0 Low: 21), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x08000400000000000000000000000011 Type: Player Entry: 0 Low: 17), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Wyland' (GUID Full: 0x08000400000000000000000000000009 Type: Player Entry: 0 Low: 9), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Riven' (GUID Full: 0x08000400000000000000000000000008 Type: Player Entry: 0 Low: 8), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellinor' (GUID Full: 0x08000400000000000000000000000007 Type: Player Entry: 0 Low: 7), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elowen' (GUID Full: 0x08000400000000000000000000000004 Type: Player Entry: 0 Low: 4), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000001 Type: Player Entry: 0 Low: 1), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ysara' (GUID Full: 0x08000400000000000000000000000031 Type: Player Entry: 0 Low: 49), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jassara' (GUID Full: 0x0800040000000000000000000000002C Type: Player Entry: 0 Low: 44), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pellin' (GUID Full: 0x0800040000000000000000000000002A Type: Player Entry: 0 Low: 42), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Elandra' (GUID Full: 0x08000400000000000000000000000025 Type: Player Entry: 0 Low: 37), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorund' (GUID Full: 0x08000400000000000000000000000023 Type: Player Entry: 0 Low: 35), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Drystan' (GUID Full: 0x0800040000000000000000000000001C Type: Player Entry: 0 Low: 28), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Maevyn' (GUID Full: 0x0800040000000000000000000000001A Type: Player Entry: 0 Low: 26), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Pyralis' (GUID Full: 0x08000400000000000000000000000018 Type: Player Entry: 0 Low: 24), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Iridessa' (GUID Full: 0x08000400000000000000000000000017 Type: Player Entry: 0 Low: 23), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rhydian' (GUID Full: 0x08000400000000000000000000000012 Type: Player Entry: 0 Low: 18), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Faelith' (GUID Full: 0x0800040000000000000000000000000E Type: Player Entry: 0 Low: 14), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000D Type: Player Entry: 0 Low: 13), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Aldric' (GUID Full: 0x08000400000000000000000000000005 Type: Player Entry: 0 Low: 5), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Xandrel' (GUID Full: 0x08000400000000000000000000000030 Type: Player Entry: 0 Low: 48), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Brynneth' (GUID Full: 0x0800040000000000000000000000002E Type: Player Entry: 0 Low: 46), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Galren' (GUID Full: 0x0800040000000000000000000000002D Type: Player Entry: 0 Low: 45), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Gareth' (GUID Full: 0x08000400000000000000000000000027 Type: Player Entry: 0 Low: 39), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Zaroth' (GUID Full: 0x08000400000000000000000000000026 Type: Player Entry: 0 Low: 38), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Jorath' (GUID Full: 0x08000400000000000000000000000024 Type: Player Entry: 0 Low: 36), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelor' (GUID Full: 0x08000400000000000000000000000022 Type: Player Entry: 0 Low: 34), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Thorne' (GUID Full: 0x08000400000000000000000000000021 Type: Player Entry: 0 Low: 33), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Farryn' (GUID Full: 0x0800040000000000000000000000001F Type: Player Entry: 0 Low: 31), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Delwyn' (GUID Full: 0x0800040000000000000000000000001E Type: Player Entry: 0 Low: 30), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Corvyn' (GUID Full: 0x08000400000000000000000000000016 Type: Player Entry: 0 Low: 22), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Quillan' (GUID Full: 0x08000400000000000000000000000014 Type: Player Entry: 0 Low: 20), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Rivenna' (GUID Full: 0x08000400000000000000000000000013 Type: Player Entry: 0 Low: 19), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Ashara' (GUID Full: 0x08000400000000000000000000000010 Type: Player Entry: 0 Low: 16), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Lirien' (GUID Full: 0x0800040000000000000000000000000F Type: Player Entry: 0 Low: 15), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Hallowyn' (GUID Full: 0x0800040000000000000000000000000C Type: Player Entry: 0 Low: 12), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Halden' (GUID Full: 0x0800040000000000000000000000000B Type: Player Entry: 0 Low: 11), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vaelis' (GUID Full: 0x0800040000000000000000000000000A Type: Player Entry: 0 Low: 10), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Oswin' (GUID Full: 0x08000400000000000000000000000006 Type: Player Entry: 0 Low: 6), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Solenne' (GUID Full: 0x08000400000000000000000000000003 Type: Player Entry: 0 Low: 3), possible cheater (warnings suppressed until resync)
+Player::SendTimeSync: Did not receive CMSG_TIME_SYNC_RESP for over 30 seconds from 'Vespera' (GUID Full: 0x08000400000000000000000000000002 Type: Player Entry: 0 Low: 2), possible cheater (warnings suppressed until resync)
+WorldSocket::HandleAuthSession: Authentication failed for account: 1 ('ADMIN') address: 127.0.0.1
+WorldSocket::HandleAuthSession: Authentication failed for account: 1 ('ADMIN') address: 127.0.0.1

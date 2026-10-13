@@ -1,20 +1,4 @@
-Creature (Entry: 900100) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
-Creature (Entry: 29264) has non-existing Spell1 (58859), set to 0.
-Creature (Entry: 900101) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
-Creature (Entry: 900102) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
-Creature (Entry: 9500100) has invalid unit_class (0) in creature_template. Set to 1 (UNIT_CLASS_WARRIOR).
-Creature (Entry: 900103) does not have any existing display id in Modelid1/Modelid2/Modelid3/Modelid4.
-Creature (Entry: 42010) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
-Creature (Entry: 41366) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
-Creature (Entry: 43273) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
-Creature (Entry: 43279) has SPELL_AURA_CONTROL_VEHICLE aura 46598 defined in `auras` field in `creature_template_addon`.
-Table `creature` has creature (GUID: 183746 Entry: 783) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
-Table `creature` has creature (GUID: 183806 Entry: 781) with `MovementType`=0 (idle) have `spawndist`<>0, set to 0.
-Quest 24974 has `RewardSpellCast` = 73435 but spell 73435 does not exist, quest will not have a spell reward.
-Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 39733, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
-Spell (id: 267673) have SPELL_EFFECT_QUEST_COMPLETE for quest 44555, but quest not have flag QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT. Quest flags must be fixed, quest modified to enable objective.
 npc_spellclick_spells: Creature template 130758 has UNIT_NPC_FLAG_SPELLCLICK but no data in spellclick table! Removing flag
-Area Trigger (GUID: 22) has a non-existing Port Loc (ID: 0) in WorldSafeLocs.dbc, skipped
 79 dungeon(s) have no entrance for their map (first 10: Dark Iron Dwarf - Firelands (Id: 1893, map 2076); Tol Dagor (Id: 1714, map 1771); Shrine of the Storm (Id: 1774, map 1864); The Underrot (Id: 1712, map 1841); Verdant Wilds (Id: 1724, map 1882); Waycrest Manor (Id: 1706, map 1862); Tol Dagor (Id: 1778, map 1771); The Battle for Lordaeron (Id: 1758, map 1760); Atal'Dazar (Id: 1669, map 1763); The MOTHERLODE!! (Id: 1707, map 1594)). Most are BFA/test dungeons present in DB2 but not in the 7.3.5.26124 client - they are skipped by LFG and are harmless. Add an entrance via `lfg_dungeon_template`/`areatrigger_teleport` only for dungeons that must be playable.
 The spell 108936 Effect: 108943 listed in `spell_linked_spell` has same bp0 like effect (possible hack)
 Table `areatrigger` has areatrigger (GUID: 4) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1544).
@@ -29,50 +13,33 @@ Table `areatrigger` has areatrigger (GUID: 20) that have wrong spawn mask 838887
 Table `areatrigger` has areatrigger (GUID: 22) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1651).
 Table `areatrigger` has areatrigger (GUID: 24) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1516).
 Table `areatrigger` has areatrigger (GUID: 26) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1493).
-Table `areatrigger` has areatrigger (GUID: 28) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1520).
-Table `areatrigger` has areatrigger (GUID: 30) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1648).
-Table `areatrigger` has areatrigger (GUID: 32) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
-Table `areatrigger` has areatrigger (GUID: 33) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1530).
-Table `areatrigger` has areatrigger (GUID: 35) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1676).
+Table `areatrigger` has areatrigger (GUID: 28) that have wrong spawn mask 245760 including unsupported difficulty modes for map (Id: 1520).
+Table `areatrigger` has areatrigger (GUID: 30) that have wrong spawn mask 245760 including unsupported difficulty modes for map (Id: 1648).
+Table `areatrigger` has areatrigger (GUID: 32) that have wrong spawn mask 245760 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 33) that have wrong spawn mask 245760 including unsupported difficulty modes for map (Id: 1530).
+Table `areatrigger` has areatrigger (GUID: 35) that have wrong spawn mask 245760 including unsupported difficulty modes for map (Id: 1676).
 Table `areatrigger` has areatrigger (GUID: 45) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1466).
 Table `areatrigger` has areatrigger (GUID: 47) that have wrong spawn mask 8388870 including unsupported difficulty modes for map (Id: 1753).
-Table 'creature_loot_template' Entry 36756 does not exist but it is used by Creature 36756
-Table 'gameobject_loot_template' Entry 30786 does not exist but it is used by Gameobject 204281
-Table 'gameobject_loot_template' Entry 29946 does not exist but it is used by Gameobject 203751
-Table 'gameobject_loot_template' Entry 29959 does not exist but it is used by Gameobject 203801
-Table 'gameobject_loot_template' Entry 29952 does not exist but it is used by Gameobject 203762
-Table 'gameobject_loot_template' Entry 203751 isn't gameobject entry and not referenced from loot, and thus useless.
-Table 'gameobject_loot_template' Entry 203762 isn't gameobject entry and not referenced from loot, and thus useless.
-Table 'gameobject_loot_template' Entry 203801 isn't gameobject entry and not referenced from loot, and thus useless.
-Table 'gameobject_loot_template' Entry 204281 isn't gameobject entry and not referenced from loot, and thus useless.
-Table 'disenchant_loot_template' Entry 180 does not exist
-Table 'disenchant_loot_template' Entry 181 does not exist
-Table 'disenchant_loot_template' Entry 182 does not exist
-Table 'disenchant_loot_template' Entry 183 does not exist
-Table 'disenchant_loot_template' Entry 184 does not exist
-Table 'disenchant_loot_template' Entry 185 does not exist
-Table 'spell_loot_template' Entry 263154 Item 141812: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263154 Item 199880: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263154 Item 122799: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263154 Item 130660: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263154 Item 134337: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263153 Item 141822: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 263151 Item 107079: item entry not listed in `item_template` - skipped
-Table 'spell_loot_template' Entry 253113 does not exist but it is used by Spell 253113
-Table 'spell_loot_template' Entry 253116 does not exist but it is used by Spell 253116
-Table 'spell_loot_template' Entry 253117 does not exist but it is used by Spell 253117
-Table 'spell_loot_template' Entry 253118 does not exist but it is used by Spell 253118
-Table 'spell_loot_template' Entry 253125 does not exist but it is used by Spell 253125
-Table 'spell_loot_template' Entry 253132 does not exist but it is used by Spell 253132
-Table 'spell_loot_template' Entry 253135 does not exist but it is used by Spell 253135
-Table 'spell_loot_template' Entry 253138 does not exist but it is used by Spell 253138
-Table 'spell_loot_template' Entry 253141 does not exist but it is used by Spell 253141
-Table 'spell_loot_template' Entry 253144 does not exist but it is used by Spell 253144
-Table 'spell_loot_template' Entry 253149 does not exist but it is used by Spell 253149
-Table 'spell_loot_template' Entry 253156 does not exist but it is used by Spell 253156
-Table 'spell_loot_template' Entry 253157 does not exist but it is used by Spell 253157
-Table 'spell_loot_template' Entry 253158 does not exist but it is used by Spell 253158
-Table 'spell_loot_template' Entry 253159 does not exist but it is used by Spell 253159
+Table 'spell_loot_template' Entry 253160 does not exist but it is used by Spell 253160
+Table 'spell_loot_template' Entry 253161 does not exist but it is used by Spell 253161
+Table 'spell_loot_template' Entry 253162 does not exist but it is used by Spell 253162
+Table 'spell_loot_template' Entry 253165 does not exist but it is used by Spell 253165
+Table 'spell_loot_template' Entry 253168 does not exist but it is used by Spell 253168
+Table 'spell_loot_template' Entry 253171 does not exist but it is used by Spell 253171
+Table 'spell_loot_template' Entry 253174 does not exist but it is used by Spell 253174
+Table 'spell_loot_template' Entry 253177 does not exist but it is used by Spell 253177
+Table 'spell_loot_template' Entry 253180 does not exist but it is used by Spell 253180
+Table 'spell_loot_template' Entry 253183 does not exist but it is used by Spell 253183
+Table 'spell_loot_template' Entry 253186 does not exist but it is used by Spell 253186
+Table 'spell_loot_template' Entry 253187 does not exist but it is used by Spell 253187
+Table 'spell_loot_template' Entry 253188 does not exist but it is used by Spell 253188
+Table 'spell_loot_template' Entry 253190 does not exist but it is used by Spell 253190
+Table 'spell_loot_template' Entry 253191 does not exist but it is used by Spell 253191
+Table 'spell_loot_template' Entry 253192 does not exist but it is used by Spell 253192
+Table 'spell_loot_template' Entry 255457 does not exist but it is used by Spell 255457
+Table 'spell_loot_template' Entry 255458 does not exist but it is used by Spell 255458
+Table 'spell_loot_template' Entry 255459 does not exist but it is used by Spell 255459
+Table 'spell_loot_template' Entry 255610 does not exist but it is used by Spell 255610
 Loot: further 'does not exist but is used by' errors suppressed after 20 (orphan loot rows). Clean them with sql/100_legionforge_error_fixes_26124_part2.sql
 Table 'spell_loot_template' Entry 263148 isn't spell id (random item creating) and not referenced from loot, and thus useless.
 Table 'spell_loot_template' Entry 263149 isn't spell id (random item creating) and not referenced from loot, and thus useless.
@@ -81,27 +48,16 @@ Table 'spell_loot_template' Entry 263151 isn't spell id (random item creating) a
 Table 'spell_loot_template' Entry 263152 isn't spell id (random item creating) and not referenced from loot, and thus useless.
 Table 'spell_loot_template' Entry 263153 isn't spell id (random item creating) and not referenced from loot, and thus useless.
 Table 'spell_loot_template' Entry 263154 isn't spell id (random item creating) and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210000 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210001 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210002 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210003 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210004 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210005 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210006 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210007 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210008 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210009 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210010 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210011 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210012 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210013 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210014 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210015 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210016 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210017 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210018 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template' Entry 210019 isn't reference id and not referenced from loot, and thus useless.
-Table 'reference_loot_template': 30 useless entries total (first 20 logged). Clean them with sql/100_legionforge_error_fixes_26124_part2.sql
+Table 'reference_loot_template' Entry 210020 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210021 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210022 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210023 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210024 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210025 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210026 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210027 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210028 isn't reference id and not referenced from loot, and thus useless.
+Table 'reference_loot_template' Entry 210029 isn't reference id and not referenced from loot, and thus useless.
 Table `achievement_reward` (Entry: 13) does not contain title or item reward data. Ignored.
 Table `achievement_reward` (Entry: 3636) does not contain title or item reward data. Ignored.
 Table `achievement_reward` (Entry: 9496) does not contain title or item reward data. Ignored.
@@ -118,14 +74,6 @@ Table `achievement_reward` (Entry: 7853) does not contain title or item reward d
 Table `achievement_reward` (Entry: 8820) does not contain title or item reward data. Ignored.
 Table gossip_menu: ID 11061 is using non-existing TextId 15442
 Table `(game_event_)npc_vendor` has `maxcount` (2) for item 138295 of vendor (Entry: 111903) but `incrtime`=0, ignore
-creature_formations table leader guid 370509 incorrect (not exist)
-creature_formations table leader guid 370509 incorrect (not exist)
-creature_formations table leader guid 370509 incorrect (not exist)
-creature_formations table member guid 370510 incorrect (not exist)
-creature_formations table member guid 370571 incorrect (not exist)
-creature_formations table leader guid 370570 incorrect (not exist)
-creature_formations table leader guid 370570 incorrect (not exist)
-creature_formations table leader guid 370570 incorrect (not exist)
 Script named 'at_legion_portal_aovh_entrance' does not have a script name assigned in database.
 Script named 'at_legion_portal_aovh_exit' does not have a script name assigned in database.
 Script named 'at_legion_portal_coen_entrance' does not have a script name assigned in database.
@@ -300,14 +248,6 @@ ScriptName 'areatrigger_aegis_of_aggramar' exists in database, but no core scrip
 ScriptName 'at_umbral_ejection' exists in database, but no core script found!
 ScriptName 'areatrigger_flame_of_woe' exists in database, but no core script found!
 ScriptName 'areatrigger_infernal_flames' exists in database, but no core script found!
-ScriptName 'areatrigger_runic_mark_1' exists in database, but no core script found!
-ScriptName 'go_allied_race_infos_tauren' exists in database, but no core script found!
-ScriptName 'at_skrog_tidestomper_massive_quake' exists in database, but no core script found!
-ScriptName 'areatrigger_runic_mark_2' exists in database, but no core script found!
-ScriptName 'areatrigger_runic_mark_3' exists in database, but no core script found!
-ScriptName 'areatrigger_runic_mark_4' exists in database, but no core script found!
-ScriptName 'spell_spawn_flash_3_periodic' exists in database, but no core script found!
-ScriptName 'areatrigger_runic_mark_5' exists in database, but no core script found!
 ScriptName 'areatrigger_spear_of_light' exists in database, but no core script found!
 ScriptName 'at_animated_storm_water_spout' exists in database, but no core script found!
 ScriptName 'aura_item_burning_essence' exists in database, but no core script found!
@@ -318,6 +258,7 @@ ScriptName 'boss_zuraal_the_ascended' exists in database, but no core script fou
 ScriptName 'at_eye_of_the_storm' exists in database, but no core script found!
 ScriptName 'at_wrath_of_azshara_surging_waters' exists in database, but no core script found!
 ScriptName 'at_lady_hatecoil_monsoon' exists in database, but no core script found!
+ScriptName 'npc_imp_mother_laglath' exists in database, but no core script found!
 ScriptName 'at_mage_cinderstorm' exists in database, but no core script found!
 ScriptName 'at_mage_flame_patch' exists in database, but no core script found!
 ScriptName 'aura_dh_fraility' exists in database, but no core script found!
@@ -327,6 +268,8 @@ ScriptName 'spell_hun_call_pet' exists in database, but no core script found!
 ScriptName 'aura_warr_war_machine' exists in database, but no core script found!
 ScriptName 'at_serpentrix_toxic_puddle' exists in database, but no core script found!
 ScriptName 'aura_void_phased' exists in database, but no core script found!
+ScriptName 'go_allied_race_infos_tauren' exists in database, but no core script found!
+ScriptName 'at_skrog_tidestomper_massive_quake' exists in database, but no core script found!
 ScriptName 'boss_elegon' exists in database, but no core script found!
 ScriptName 'npc_agitated_earth_spirit' exists in database, but no core script found!
 ScriptName 'boss_king_haldor' exists in database, but no core script found!
@@ -364,7 +307,6 @@ ScriptName 'npc_dm_vanessa_vancleef' exists in database, but no core script foun
 ScriptName 'boss_fenryr' exists in database, but no core script found!
 ScriptName 'spell_animated_storm_water_spout' exists in database, but no core script found!
 ScriptName 'boss_garajal' exists in database, but no core script found!
-ScriptName 'npc_imp_mother_laglath' exists in database, but no core script found!
 ScriptName 'npc_shadowfang_prisoner' exists in database, but no core script found!
 ScriptName 'spell_ravenous_leap_jump' exists in database, but no core script found!
 ScriptName 'mob_spirit_totem_intro' exists in database, but no core script found!
@@ -404,7 +346,6 @@ ScriptName 'mob_cosmic_spark' exists in database, but no core script found!
 ScriptName 'npc_apprentice_mirveda' exists in database, but no core script found!
 ScriptName 'spell_dru_gore' exists in database, but no core script found!
 ScriptName 'spell_mogu_wildfire_infusion' exists in database, but no core script found!
-ScriptName 'spell_spawn_flash_2_periodic' exists in database, but no core script found!
 ScriptName 'spell_wrath_of_azshara_arcane_bomb_target' exists in database, but no core script found!
 ScriptName 'spell_skrog_tidestomper_massive_quake' exists in database, but no core script found!
 ScriptName 'npc_solsten' exists in database, but no core script found!
@@ -492,7 +433,6 @@ ScriptName 'spell_kovald_infernal_flames' exists in database, but no core script
 ScriptName 'spell_draw_power' exists in database, but no core script found!
 ScriptName 'spell_energizing_visual' exists in database, but no core script found!
 ScriptName 'spell_final_destination' exists in database, but no core script found!
-ScriptName 'spell_spawn_flash_1_periodic' exists in database, but no core script found!
 ScriptName 'spell_hatecoil_arcanist_aqua_spout' exists in database, but no core script found!
 ScriptName 'spell_lady_hatecoil_curse_of_the_witch' exists in database, but no core script found!
 ScriptName 'spell_impeding_thrust' exists in database, but no core script found!
@@ -618,8 +558,8 @@ SmartAIMgr: Entry 2408900 SourceType 9 Event 0 Action 33 Kill Credit: There is a
 SmartAIMgr: Entry 2409000 SourceType 9 Event 0 Action 33 Kill Credit: There is a killcredit spell for creatureEntry 24124 (SpellId: 43094 effect: 
 SmartAIMgr: Entry 18666000 SourceType 9 Event 0 Action 12 creature summon: There is a summon spell for creature entry 24285 (SpellId: 43387, effect: 
 WaypointMovementGenerator::LoadPath: creature Shadowglen Sentinel (GUID Full: 0x20000400200BE0000000000000000387 Type: Creature Entry: 12160 Low: 903 DB GUID: 276628) doesn't have waypoint path id: 0
-WaypointMovementGenerator::LoadPath: creature Jenn Langston (GUID Full: 0x2000040000038A80000000000000091D Type: Creature Entry: 3626 Low: 2333 DB GUID: 188758) doesn't have waypoint path id: 0
-WaypointMovementGenerator::LoadPath: creature Wretched Ghoul (GUID Full: 0x20000400000177800000000000000C99 Type: Creature Entry: 1502 Low: 3225 DB GUID: 193655) doesn't have waypoint path id: 0
+WaypointMovementGenerator::LoadPath: creature Jenn Langston (GUID Full: 0x2000040000038A80000000000000092B Type: Creature Entry: 3626 Low: 2347 DB GUID: 188758) doesn't have waypoint path id: 0
+WaypointMovementGenerator::LoadPath: creature Wretched Ghoul (GUID Full: 0x20000400000177800000000000000B1B Type: Creature Entry: 1502 Low: 2843 DB GUID: 193655) doesn't have waypoint path id: 0
 WaypointMovementGenerator::LoadPath: creature Giraffe (GUID Full: 0x2000040020124CC0000000000000076F Type: Creature Entry: 18739 Low: 1903 DB GUID: 302229) doesn't have waypoint path id: 0
 WaypointMovementGenerator::LoadPath: creature King Reaperclaw (GUID Full: 0x20000400202203400000000000000776 Type: Creature Entry: 34829 Low: 1910 DB GUID: 303909) doesn't have waypoint path id: 0
 WaypointMovementGenerator::LoadPath: creature Orgrimmar Wind Rider (GUID Full: 0x20000400203224800000000000000D6F Type: Creature Entry: 51346 Low: 3439 DB GUID: 286840) doesn't have waypoint path id: 0
