@@ -1,0 +1,151 @@
+
+ =========================================================
+  LEGIONFORGE 7.3.5 - запуск сервера
+ =========================================================
+
+ [*] Проверка MySQL...
+ [OK] MySQL доступен: D:\legionforge\tools\mysql\server\bin\mysql.exe
+
+ [*] Проверка схем world и hotfixes...
+[OK] Database 'world' is ready: 227 tables; required data rows verified.
+[OK] Database 'hotfixes' is ready: 330 tables; required data rows verified.
+  [OK] server\logs и server\Crashes готовы (перенесено журналов: 0, отчётов о падениях: 0, удалено старых: 0)
+ [*] Проверка DB2 (dbc) на соответствие ядру...
+  == LEGIONFORGE: проверка DB2 (dbc) на соответствие ядру ==
+  Каталог: D:\legionforge\server\data\dbc\enUS
+  Ожидается таблиц ядром: 242; константы: BATTLE_PET_SPECIES_MAX_ID=5004, MAX_DIFFICULTY=148, TaxiMaskSize=286
+  SpellEffect: допустимо 0..261; обработчиков 262. Значения записей WDC1 проверяет worldserver.
+  Проверено файлов: 242; отсутствует: 0
+  [OK] Заголовки dbc, LayoutHash и статические лимиты совпадают; содержимое SpellEffect проверяется при загрузке worldserver.
+ [OK] DB2 соответствуют ядру.
+
+ [*] Проверка библиотек worldserver и bnetserver...
+  == LEGIONFORGE: проверка библиотек сервера ==
+  Папка server: D:\legionforge\server
+  Контроль сборки: EXE и исходники DB2/SpellEffect совпадают.
+  Все библиотеки уже на месте или есть в Windows.
+  == LEGIONFORGE: диагностика OpenSSL / OPENSSL_Applink ==
+  Каталог сервера: D:\legionforge\server
+  --- bnetserver.exe ---
+  [OK] экспорт OPENSSL_Applink присутствует в PE - фикс скомпилирован в exe.
+  --- worldserver.exe ---
+  [OK] экспорт OPENSSL_Applink присутствует в PE - фикс скомпилирован в exe.
+  --- DLL OpenSSL рядом с сервером ---
+  [OK] libcrypto-3-x64.dll  (версия 3.5.9, 6 996 480 байт)
+  [OK] libssl-3-x64.dll  (версия 3.5.9, 1 294 336 байт)
+  --- OpenSSL DLL в PATH ---
+  [OK] Конфликтов в PATH нет. 2 совпадений перекрыты локальными DLL; DLL с другими именами не замещают их.
+  --- Переменная OPENSSL_CONF ---
+  [OK] OPENSSL_CONF задана и файл существует: D:\legionforge\tools\openssl.cnf
+  При необходимости задайте локальный конфиг OpenSSL:
+  set "OPENSSL_CONF=D:\legionforge\tools\openssl.cnf"
+  play.bat подставляет этот путь автоматически, если OPENSSL_CONF пуста
+  или указывает на несуществующий файл.
+  [OK] Признаков проблемы OPENSSL_Applink не обнаружено.
+  OPENSSL_Applink: проверка пройдена.
+  OK: библиотеки для запуска на месте.
+ [OK] Библиотеки на месте.
+
+ [*] Проверка и применение SQL-патчей LEGIONFORGE...
+  [*] applying updates\characters\master\2026_01_01_02_character_instance_join_fix.sql -> characters...
+      erroneous_character_instance_columns_remaining
+      0
+  [OK] updates\characters\master\2026_01_01_02_character_instance_join_fix.sql
+  [*] applying 04_fix_instance_data.sql -> characters...
+  [OK] 04_fix_instance_data.sql
+  [*] applying 31_remove_bots_characters.sql -> characters...
+  [OK] 31_remove_bots_characters.sql
+  [*] applying stitch\010_scenario_return_characters.sql -> characters...
+  [OK] stitch\010_scenario_return_characters.sql
+  [*] applying stitch\010_scenario_npc_landing.sql -> world...
+  [OK] stitch\010_scenario_npc_landing.sql
+  [*] applying 32_playerbot_auth.sql -> auth...
+  [OK] 32_playerbot_auth.sql
+  [*] applying 32_playerbot_world.sql -> world...
+  [OK] 32_playerbot_world.sql
+  [*] applying 31_remove_bots_world.sql -> world...
+  [OK] 31_remove_bots_world.sql
+  [*] applying 02_custom_creatures.sql -> world...
+      1
+      1
+  [OK] 02_custom_creatures.sql
+  [*] applying 07_legion_instance_template.sql -> world...
+  [OK] 07_legion_instance_template.sql
+  [*] applying 08_all_instance_template.sql -> world...
+  [OK] 08_all_instance_template.sql
+  [*] applying 09_lfg_dungeon_entrances.sql -> world...
+  [OK] 09_lfg_dungeon_entrances.sql
+  [*] applying 10_legionforge_realm.sql -> auth...
+  [OK] 10_legionforge_realm.sql
+  [*] applying 13_warlock_starter_pet.sql -> world...
+  [OK] 13_warlock_starter_pet.sql
+  [*] applying 15_young_and_vicious.sql -> world...
+  [OK] 15_young_and_vicious.sql
+  [*] applying 18_quest_item_target.sql -> world...
+  [OK] 18_quest_item_target.sql
+  [*] applying 19_quest_generic_phase.sql -> world...
+  [OK] 19_quest_generic_phase.sql
+  [*] applying 20_imp_display.sql -> world...
+  [OK] 20_imp_display.sql
+  [*] applying 20_imp_display_characters.sql -> characters...
+  [OK] 20_imp_display_characters.sql
+  [*] applying 22_they_sent_assassins.sql -> world...
+  [OK] 22_they_sent_assassins.sql
+  [*] applying 23_kill_target_questgivers.sql -> world...
+  [OK] 23_kill_target_questgivers.sql
+  [*] applying 24_neutral_kill_targets.sql -> world...
+  [OK] 24_neutral_kill_targets.sql
+  [*] applying 25_clear_promo_mail_world.sql -> world...
+  [OK] 25_clear_promo_mail_world.sql
+  [*] applying 25_clear_promo_mail_characters.sql -> characters...
+  [OK] 25_clear_promo_mail_characters.sql
+  [*] applying 26_welcome_sender.sql -> world...
+  [OK] 26_welcome_sender.sql
+  [*] applying 27_worgen_start.sql -> world...
+  [OK] 27_worgen_start.sql
+  [*] applying 28_fel_imp_display.sql -> world...
+  [OK] 28_fel_imp_display.sql
+  [*] applying 48_legion_allied_races.sql -> world...
+  [OK] 48_legion_allied_races.sql
+  [*] applying 49_legion_allied_races_hotbar.sql -> world...
+  [OK] 49_legion_allied_races_hotbar.sql
+  [*] applying 52_custom_races_31_44.sql -> world...
+      raceId    raceName        donorRace       team    createInfoRows  levelStatRows   startItemRows   actionBarRows  unlockRows
+      31        Custom race 31 (donor: Human)   1       ALLIANCE        9       990     0       27      1
+      32        Custom race 32 (donor: Orc)     2       HORDE   8       880     0       26      1
+      33        Custom race 33 (donor: Night Elf)       4       ALLIANCE        9       990     0       38      1
+      34        Custom race 34 (donor: Dwarf)   3       ALLIANCE        10      1100    0       30      1
+      35        Custom race 35 (donor: Undead)  5       HORDE   8       880     0       25      1
+      36        Custom race 36 (donor: Tauren)  6       HORDE   8       880     0       32      1
+      37        Custom race 37 (donor: Gnome)   7       ALLIANCE        8       880     0       26      1
+      38        Custom race 38 (donor: Troll)   8       HORDE   10      1100    0       35      1
+      39        Custom race 39 (donor: Blood Elf)       10      HORDE   10      1100    0       34      1
+      40        Custom race 40 (donor: Draenei) 11      ALLIANCE        8       880     0       32      1
+      41        Custom race 41 (donor: Worgen)  22      ALLIANCE        8       880     0       24      1
+      42        Custom race 42 (donor: Goblin)  9       HORDE   8       880     0       35      1
+      43        Custom race 43 (donor: Pandaren Neutral)        24      NEUTRAL 7       770     0       29      1
+      44        Custom race 44 (donor: Nightborne)      27      ALLIANCE        7       770     7       20      1
+  [OK] 52_custom_races_31_44.sql
+  [*] applying 100_legionforge_error_fixes_26124_part2.sql -> world...
+  [OK] 100_legionforge_error_fixes_26124_part2.sql
+  [*] applying generated_p05_item_targets.sql -> world...
+  [OK] generated_p05_item_targets.sql
+  [OK] Обязательные таблицы ядра на месте.
+ [OK] SQL-патчи применены.
+  [OK] worldserver.conf : MySQLExecutable = D:/legionforge/tools/mysql/server/bin/mysql.exe
+  [OK] bnetserver.conf : MySQLExecutable = D:/legionforge/tools/mysql/server/bin/mysql.exe
+
+ [*] Запуск bnetserver...
+ [OK] bnetserver запущен и слушает порт 1119.
+ [*] Запуск worldserver, загрузка мира занимает 1-3 минуты...
+ [ВНИМАНИЕ] worldserver не подтвердил готовность.
+     Проверьте журнал: D:\legionforge\server\Server.log
+Для продолжения нажмите любую клавишу . . .
+
+
+
+
+
+
+
+
